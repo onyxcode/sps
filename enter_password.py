@@ -5,6 +5,7 @@ from past.builtins import raw_input
 print("Keep it logically awesome.")
 
 f = open("password.txt")
+# Default password is "apple"
 prompt = raw_input("Please enter your password: ")
 currentPWD = f.read()
 
