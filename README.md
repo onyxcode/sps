@@ -1,5 +1,5 @@
 # sps
-A simple password system made in Python 3
+A simple, yet so far insecure, password system made in Python 3
 
 ## Prerequisites
 - Python 3 | [Windows 64-bit](https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe) | [Windows 32-bit](https://www.python.org/ftp/python/3.8.4/python-3.8.4.exe) | [macOS](https://www.python.org/ftp/python/3.8.4/python-3.8.4-macosx10.9.pkg) | [Linux (Debian/Ubuntu based)](https://linuxize.com/post/how-to-install-python-3-8-on-debian-10/)
