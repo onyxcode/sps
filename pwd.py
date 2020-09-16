@@ -1,10 +1,7 @@
-from past.builtins import raw_input
-
-
 # yes
 def menu():
   print("Press (1) to change a password. | Press (2) to enter your password.")
-  prompt = raw_input("What would you like to do?\n")
+  prompt = input("What would you like to do?\n")
 
   if prompt == "1":
     change()
@@ -16,9 +13,8 @@ def menu():
 
 
 def change():
-  from passlib.context import CryptContext
   print("Change password")
-  prompt = raw_input("Please confirm your old password to continue: ")
+  prompt = input("Please confirm your old password to continue: ")
   f = open("password.txt")
   currentPWD = f.read()
 
@@ -44,7 +40,7 @@ def enter():
 
   f = open("password.txt")
   # Default password is "apple"
-  prompt = raw_input("Please enter your password: ")
+  prompt = input("Please enter your password: ")
   currentPWD = f.read()
 
   if prompt == currentPWD:
